@@ -5,7 +5,7 @@ import logo from "./images/logo.png";
 
 const Sidebar = () => {
   return (
-    <aside className={`sidebar show-sidebar`}>
+    <aside className={`sidebar`}>
       <div className="sidebar-header">
         <img src={logo} classname="logo" alt="navbar logo" />
         <button className="close-btn">
