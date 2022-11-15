@@ -6,4 +6,8 @@ const AppProvider = ({ children }) => {
   return <AppContext.Provider value="Hello">{children}</AppContext.Provider>;
 };
 
+export const useGlobalContext = () => {
+  return useContext(AppContext);
+};
+
 export { AppContext, AppProvider };
