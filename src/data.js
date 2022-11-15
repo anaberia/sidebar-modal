@@ -13,7 +13,7 @@ import {
   FaWpforms,
 } from "react-icons/fa";
 
-const links = [
+export const links = [
   {
     id: 1,
     url: "/",
@@ -46,7 +46,7 @@ const links = [
   },
 ];
 
-const social = [
+export const social = [
   {
     id: 1,
     url: "https://www.twitter.com",
@@ -73,5 +73,3 @@ const social = [
     icon: <FaSketch />,
   },
 ];
-
-export default { links, social };
